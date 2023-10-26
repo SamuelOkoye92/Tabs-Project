@@ -1,20 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tabs</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <section>
-      <div class="article">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tabs</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <section class="section">
+    <div class="title">
       <h2>About</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, molestias.
+      <p>Lets take creativity to the next level and build the future today.
       </p>
     </div>
     <div class="about-center section-center">
+      <article class="about-img">
+        <img src="./hero image.jpg" alt="about picture">
+      </article>
+      <article class="about">
+        <!-- button container -->
+        <div class="btn-container">
+          <button class="tab-btn active" data-id="history">history</button>
+          <button class="tab-btn" data-id="vision">vision</button>
+          <button class="tab-btn" data-id="goals">goals</button>
+        </div>
+        <article class="about-content">
+          <div class="content active" id="history">
+            <h4>history</h4>
+            <p>Artificial intelligence (AI) is rapidly transforming the business landscape, creating new opportunities for entrepreneurs and established businesses alike. By harnessing the power of AI, businesses can improve their efficiency and productivity, develop new products and services, and better understand and serve their customers.</p>
+          </div>
+          <div class="content" id="vision">
+            <h4>vision</h4>
+            <p>As an organization that builds businesses with AI, our vision is to utilize AI as a powerful tool for solving complex problems and creating new opportunities. we are fully committed to using AI to make the world a better place, while also generating profits for our shareholders. We clearly believe in a future where artificial nteligence will be at the center of innovation and creativity</p>
+          </div>
+          <div class="content" id="goals">
+            <h4>goals</h4>
+            <p>The goal of an AI business development organization is to help businesses identify and capitalize on the opportunities presented by AI. Our ultimate goal is to help develop and implement AI strategies. This involves understanding the business's goals and objectives, and identifying the areas where AI can be used to create value. We also Identify and acquire AI solutions.  </p>
+          </div>
+        </article>
+      </article>
     </div>
-    </section>
-  </body>
+  </section>
+</body>
+
 </html>
